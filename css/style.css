@@ -11,6 +11,12 @@
 	License URI: http://opensource.org/licenses/mit-license.php
 */
 
+/* Import PT Serif */
+
+@import url(https://fonts.googleapis.com/css?family=PT+Serif:400,700,700italic,400italic);
+
+
+
 /*------------------------------------*\
     MAIN
 \*------------------------------------*/
@@ -30,8 +36,9 @@ html {
 	font-size:62.5%;
 }
 body {
-	font:300 11px/1.4 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	color:#444;
+	font:300 11px/1.4;
+	font-family: 'PT Serif', serif;
+	color:#666;
 	background: black;
 }
 /* clear */
@@ -91,7 +98,8 @@ input:focus {
 
 }
 .logo-img {
-
+	height: 300px;
+	width:100%;
 }
 /* nav */
 .nav {
