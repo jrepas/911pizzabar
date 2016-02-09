@@ -14,6 +14,8 @@
 /* Import PT Serif */
 
 @import url(https://fonts.googleapis.com/css?family=PT+Serif:400,700,700italic,400italic);
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700,400italic);
 
 
 
@@ -33,13 +35,15 @@
 }
 /* html element 62.5% font-size for REM use */
 html {
-	font-size:62.5%;
+	font-size:100%;
 }
 body {
-	font:300 11px/1.4;
-	font-family: 'PT Serif', serif;
-	color:#666;
-	background: black;
+    font-family: 'Libre Baskerville', serif;
+    background: #FFF;
+    background-image: url("../img/background.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    border-top: 5px solid #54813A;
 }
 /* clear */
 .clear:before,
@@ -98,12 +102,54 @@ input:focus {
 
 }
 .logo-img {
-	height: 300px;
-	width:100%;
+    margin: 20px;
+    height: 300px;
+    width: 100%;
+}
+.logo h1,h2 {
+	color: #FFFFFF;
+}
+.logo h1 {
+	font-size: 80px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    border-bottom: 1px solid #E4311B;
+    margin: 0 auto;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.logo h2 {
+	font-size:18px;
+	line-height:30px;
+	margin: 40px auto;
 }
 /* nav */
 .nav {
 
+}
+
+.menu {
+
+}
+
+.menu ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #E4311B;
+}
+.menu ul li {
+	float: left;
+}
+.menu ul li a {
+	display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 /* sidebar */
 .sidebar {
