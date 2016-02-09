@@ -1,0 +1,154 @@
+/* Font Import */
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700,400italic);
+
+/* Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Branding */
+
+body {
+	font-family: 'Libre Baskerville', serif;
+	background:#FFF;
+	background-image: url("background.jpg");
+	background-repeat: no-repeat;
+	background-position: top center;
+	border-top: 5px solid #54813A;
+}
+img {
+	margin:20px;
+	width: 300px;
+}
+
+.phone {
+	font-size:36px;
+	text-decoration:none;
+	margin: 40px 20px;		
+}
+.phone a {
+	text-decoration:none;
+	color: #FFFFFF;
+}
+
+
+.wrapper {
+	width: 800px;
+	margin: 0 auto;
+	text-align:center;
+}
+h1,h2 {
+	color: #FFFFFF;
+}
+h1 {
+	font-size:80px;
+	font-weight:700;
+	margin: 10px;
+	text-transform:uppercase;
+	letter-spacing: 10px;
+	border-bottom: 1px solid #E4311B;
+}
+
+h2 {
+	font-size:18px;
+	line-height:30px;
+	margin: 40px auto;
+}
+
+form {
+	margin:0 auto;
+	width:640px;
+	padding: 10px;
+}
+.phone i.fa.fa-phone.fa-lg {
+	color: #54813A;
+}
+i.fa.fa-envelope {
+	color: #FFFFFF;
+}
+input[type="text"] {
+	padding: 10px;
+	margin: 10px;
+	border: none;
+	border-radius: 2px;
+}
+
+.btn_email{
+	font-family: 'Lato', sans-serif;
+	background: transparent;
+	display: block;
+	width: 300px;
+	margin: 0px auto;
+	border: 1px solid #FFF;
+	color: #FFF;
+	padding: 20px;
+	border-radius: 4px;
+	font-size: 16px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: bold;
+	-webkit-transition: background .275s;
+	transition: background .275s;
+}
+.btn_email:hover{
+	background:#FFF;
+	color:#E4311B;;
+}
+.subscribe {
+	text-align:center;
+	width:100%;
+	background: #E4311B;
+	position: relative;
+	bottom: 0;
+}
+p {
+	font-size: 1.1em;
+	line-height: 1.675em;
+	color: #FFF;
+}
+
+::-webkit-input-placeholder {
+	font-family: 'Lato', sans-serif;
+	color:#333;
+	font-size:1em;
+}
